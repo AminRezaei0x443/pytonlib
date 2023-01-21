@@ -5,7 +5,7 @@ import pytest
 import pytest_asyncio
 import requests
 
-from pytonlib.client import TonlibClient
+from rift_tonlib.client import TonlibClient
 
 
 @pytest.fixture

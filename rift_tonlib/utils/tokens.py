@@ -1,5 +1,5 @@
-from pytonlib.utils.address import detect_address
-from pytonlib.utils.tlb import MsgAddress, MsgAddressInt, TokenData, parse_tlb_object
+from rift_tonlib.utils.address import detect_address
+from rift_tonlib.utils.tlb import MsgAddress, MsgAddressInt, TokenData, parse_tlb_object
 
 
 def read_stack_num(entry: list):

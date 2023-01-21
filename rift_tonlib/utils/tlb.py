@@ -5,8 +5,8 @@ from hashlib import sha256
 
 from bitarray import bitarray
 from bitarray.util import ba2hex, ba2int
-from pytonlib.types.cell import Cell, deserialize_boc
-from pytonlib.types.dict_utils import parse_hashmap
+from rift_tonlib.types.cell import Cell, deserialize_boc
+from rift_tonlib.types.dict_utils import parse_hashmap
 
 
 class Slice:

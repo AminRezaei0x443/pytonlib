@@ -5,12 +5,12 @@ import logging
 import os
 from copy import deepcopy
 
-from pytonlib.types import deserialize_boc, render_tvm_stack, serialize_tvm_stack
+from rift_tonlib.types import deserialize_boc, render_tvm_stack, serialize_tvm_stack
 
-from pytonlib.tonlibjson import TonLib
-from pytonlib.utils.address import detect_address, prepare_address
-from pytonlib.utils.common import b64str_to_hex, hash_to_hex, hex_to_b64str
-from pytonlib.utils.tokens import (
+from rift_tonlib.tonlibjson import TonLib
+from rift_tonlib.utils.address import detect_address, prepare_address
+from rift_tonlib.utils.common import b64str_to_hex, hash_to_hex, hex_to_b64str
+from rift_tonlib.utils.tokens import (
     parse_jetton_master_data,
     parse_jetton_wallet_data,
     parse_nft_collection_data,

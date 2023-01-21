@@ -1,5 +1,5 @@
-from pytonlib.client import TonlibClient
-from pytonlib.tonlibjson import (
+from rift_tonlib.client import TonlibClient
+from rift_tonlib.tonlibjson import (
     BlockDeleted,
     BlockNotFound,
     ExternalMessageNotAccepted,

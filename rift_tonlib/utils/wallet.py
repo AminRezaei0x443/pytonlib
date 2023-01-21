@@ -1,7 +1,7 @@
 import codecs
 from hashlib import sha256 as hasher
 
-from pytonlib.types.cell import deserialize_boc
+from rift_tonlib.types.cell import deserialize_boc
 
 
 def empty_extractor(result, data):
