@@ -80,7 +80,7 @@ def get_tonlib_path():
     else:
         raise RuntimeError(f"Platform '{arch_name}({machine})' is not compatible yet")
     return pkg_resources.resource_filename(
-        "pytonlib", f"distlib/{arch_name}/{lib_name}",
+        "rift_tonlib", f"distlib/{arch_name}/{lib_name}",
     )
 
 
