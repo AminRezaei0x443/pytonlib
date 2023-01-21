@@ -71,7 +71,7 @@ jobs:
         if: ${{ github.repository == 'AminRezaei0x443/pytonlib' && github.event_name == 'push' && github.ref == 'refs/heads/main' }}
         uses: actions/github-script@v3
         with:
-          github-token: ${{ github.token }}
+          github-token: ${{ secrets.GIT_TOKEN }}
           script: |
             github.git.createRef({
               owner: context.repo.owner,
