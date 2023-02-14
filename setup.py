@@ -7,7 +7,7 @@ with open(join(dirname(__file__), "README.md"), "r") as f:
     long_description = f.read()
 
 
-version = '0.0.2'
+version = '0.0.3'
 
 
 setup(
@@ -16,7 +16,7 @@ setup(
     name="rift-tonlib",
     version=version,
     packages=find_packages(".", exclude=["tests"]),
-    install_requires=["bitarray", "crcset>=0.0.3", "requests>=2.27.1"],
+    install_requires=["bitarray", "crcset>=0.0.4", "requests>=2.27.1"],
     package_data={
         "rift_tonlib": [
             "distlib/linux/*",
